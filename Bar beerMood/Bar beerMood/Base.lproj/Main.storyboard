@@ -785,7 +785,7 @@
                                                 <rect key="frame" x="0.0" y="360" width="414" height="360"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="99" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HAm-QW-Mgd">
-                                                        <rect key="frame" x="0.0" y="16" width="414" height="61"/>
+                                                        <rect key="frame" x="0.0" y="16" width="414" height="328"/>
                                                         <string key="text">Привет всем 
 Я ЛЮБЛЮ ПИВО 
 ПИВО ЭТО КЛАСС</string>
@@ -796,9 +796,9 @@
                                                 </subviews>
                                                 <constraints>
                                                     <constraint firstItem="HAm-QW-Mgd" firstAttribute="leading" secondItem="Hha-0F-1ma" secondAttribute="leading" id="7VL-b2-oER"/>
+                                                    <constraint firstAttribute="bottom" secondItem="HAm-QW-Mgd" secondAttribute="bottom" constant="16" id="hqC-t1-HAk"/>
                                                     <constraint firstItem="HAm-QW-Mgd" firstAttribute="top" secondItem="Hha-0F-1ma" secondAttribute="top" constant="16" id="k5y-Sw-Buy"/>
                                                     <constraint firstAttribute="trailing" secondItem="HAm-QW-Mgd" secondAttribute="trailing" id="m9J-3v-9xu"/>
-                                                    <constraint firstAttribute="height" constant="360" id="pTU-Ih-goT"/>
                                                 </constraints>
                                             </view>
                                         </subviews>

@@ -71,10 +71,7 @@ class AboutBeerViewController: UIViewController {
         title = "\(beer.name) \(beer.country)"
         textAboutBeer.text = "\(beer.colorType)"
         
-        switch beer.colorType{
-        case .dark: textAboutBeer.text = "Темное"
-            
-        case .light: textAboutBeer.text = "Светлое"
+       
             
             let lidskoeLove = UIImage(named: "Maistr pshnichnae")
             let lidskaeVecher = UIImage(named: "Maistr Vecher v Brugge")
@@ -144,7 +141,7 @@ class AboutBeerViewController: UIViewController {
           
             updateVolume()
         }
-    }
+    
     
    private func updateVolume (){
         VolumeLabel.text = "Остаток пива: \(beer.volume)"
