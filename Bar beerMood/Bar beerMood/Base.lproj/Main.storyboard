@@ -15,7 +15,6 @@
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Aqb-Ej-cjC">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
                         <segue destination="ekV-Jy-Hee" kind="relationship" relationship="viewControllers" id="Z53-MG-yNJ"/>
@@ -1133,10 +1132,10 @@
             </objects>
             <point key="canvasLocation" x="-665" y="1202"/>
         </scene>
-        <!--View Controller-->
+        <!--Update View Controller-->
         <scene sceneID="k9f-X7-4Tk">
             <objects>
-                <viewController id="xai-h9-7Q2" sceneMemberID="viewController">
+                <viewController id="xai-h9-7Q2" customClass="UpdateViewController" customModule="Bar_beerMood" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="DIp-ue-jOY">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="886"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1149,15 +1148,50 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tf9-pb-at4">
+                                <rect key="frame" x="0.0" y="770" width="414" height="100"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hpU-Rk-vCQ">
+                                        <rect key="frame" x="16" y="16" width="233" height="41"/>
+                                        <string key="text">Код приложения находится в
+открытом доступе</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uu0-eZ-74Q">
+                                        <rect key="frame" x="374" y="16" width="24" height="14"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain"/>
+                                        <connections>
+                                            <action selector="gitBub:" destination="xai-h9-7Q2" eventType="touchUpInside" id="K6E-jO-U7w"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="Uu0-eZ-74Q" secondAttribute="trailing" constant="16" id="8fQ-hn-LzD"/>
+                                    <constraint firstItem="hpU-Rk-vCQ" firstAttribute="leading" secondItem="tf9-pb-at4" secondAttribute="leading" constant="16" id="9IJ-Uh-5oX"/>
+                                    <constraint firstItem="Uu0-eZ-74Q" firstAttribute="top" secondItem="tf9-pb-at4" secondAttribute="top" constant="16" id="U1z-6p-kgB"/>
+                                    <constraint firstItem="hpU-Rk-vCQ" firstAttribute="top" secondItem="tf9-pb-at4" secondAttribute="top" constant="16" id="kYC-Ob-S9u"/>
+                                    <constraint firstAttribute="height" constant="100" id="sRO-87-6sB"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="32Z-5n-ha0"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="N25-h9-SME" firstAttribute="centerY" secondItem="DIp-ue-jOY" secondAttribute="centerY" id="2zO-B7-lHr"/>
+                            <constraint firstItem="tf9-pb-at4" firstAttribute="leading" secondItem="32Z-5n-ha0" secondAttribute="leading" id="8tV-UX-t9b"/>
+                            <constraint firstItem="32Z-5n-ha0" firstAttribute="trailing" secondItem="tf9-pb-at4" secondAttribute="trailing" id="FaF-do-ntu"/>
                             <constraint firstItem="N25-h9-SME" firstAttribute="centerX" secondItem="DIp-ue-jOY" secondAttribute="centerX" id="GSn-cm-7Sw"/>
+                            <constraint firstItem="32Z-5n-ha0" firstAttribute="bottom" secondItem="tf9-pb-at4" secondAttribute="bottom" constant="16" id="p7W-R7-23H"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="2lb-a2-ltC"/>
+                    <connections>
+                        <outlet property="GitHub" destination="Uu0-eZ-74Q" id="rrq-n0-bML"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bBU-D2-QUb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1199,9 +1233,9 @@
                                 <rect key="frame" x="0.0" y="512" width="414" height="50"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="42g-YN-Uf4">
-                                        <rect key="frame" x="16" y="0.0" width="150" height="50"/>
+                                        <rect key="frame" x="16" y="0.0" width="100" height="50"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="150" id="ghi-RP-Neg"/>
+                                            <constraint firstAttribute="width" constant="100" id="ghi-RP-Neg"/>
                                         </constraints>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain"/>
@@ -1210,11 +1244,20 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zLr-mm-WtO">
-                                        <rect key="frame" x="248" y="0.0" width="150" height="50"/>
+                                        <rect key="frame" x="298" y="0.0" width="100" height="50"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain"/>
                                         <connections>
                                             <action selector="telegramAction:" destination="2Ql-iU-Ine" eventType="touchUpInside" id="NoX-dS-8J4"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EgX-f7-RdF">
+                                        <rect key="frame" x="132" y="0.0" width="150" height="50"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain"/>
+                                        <connections>
+                                            <action selector="gitHubAction:" destination="2Ql-iU-Ine" eventType="touchUpInside" id="hMR-D3-mk4"/>
+                                            <action selector="telegramAction:" destination="2Ql-iU-Ine" eventType="touchUpInside" id="FX4-uA-BG8"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -1226,9 +1269,14 @@
                                     <constraint firstItem="zLr-mm-WtO" firstAttribute="top" secondItem="blo-l6-Lcm" secondAttribute="top" id="Ptn-T6-BK4"/>
                                     <constraint firstItem="42g-YN-Uf4" firstAttribute="top" secondItem="blo-l6-Lcm" secondAttribute="top" id="U5D-Vi-mSZ"/>
                                     <constraint firstAttribute="trailing" secondItem="zLr-mm-WtO" secondAttribute="trailing" constant="16" id="aKg-f8-6PY"/>
+                                    <constraint firstAttribute="bottom" secondItem="EgX-f7-RdF" secondAttribute="bottom" id="eBj-FU-biY"/>
                                     <constraint firstItem="zLr-mm-WtO" firstAttribute="height" secondItem="42g-YN-Uf4" secondAttribute="height" id="ett-LG-PIM"/>
                                     <constraint firstItem="zLr-mm-WtO" firstAttribute="width" secondItem="42g-YN-Uf4" secondAttribute="width" id="kAh-xY-i2e"/>
+                                    <constraint firstItem="zLr-mm-WtO" firstAttribute="leading" secondItem="EgX-f7-RdF" secondAttribute="trailing" constant="16" id="ky0-OS-YPH"/>
                                     <constraint firstItem="42g-YN-Uf4" firstAttribute="leading" secondItem="blo-l6-Lcm" secondAttribute="leading" constant="16" id="p2C-0G-JkW"/>
+                                    <constraint firstItem="EgX-f7-RdF" firstAttribute="width" secondItem="zLr-mm-WtO" secondAttribute="width" multiplier="1.5" id="sgA-P5-aM9"/>
+                                    <constraint firstItem="EgX-f7-RdF" firstAttribute="top" secondItem="blo-l6-Lcm" secondAttribute="top" id="uTj-SW-wBO"/>
+                                    <constraint firstItem="EgX-f7-RdF" firstAttribute="leading" secondItem="42g-YN-Uf4" secondAttribute="trailing" constant="16" id="vBT-5Q-fDV"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -1250,6 +1298,7 @@
                     <navigationItem key="navigationItem" id="t7O-gZ-jsp"/>
                     <connections>
                         <outlet property="Instagram" destination="42g-YN-Uf4" id="Aja-Dg-13m"/>
+                        <outlet property="gitHub" destination="EgX-f7-RdF" id="yOb-P7-zRe"/>
                         <outlet property="telegramm" destination="zLr-mm-WtO" id="53x-4Q-hJx"/>
                     </connections>
                 </viewController>

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7D1037FD2A48E2BF00F89CD4 /* BeerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1037FC2A48E2BF00F89CD4 /* BeerType.swift */; };
+		7D778F642A4C64DD0058AF2F /* UpdateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D778F632A4C64DD0058AF2F /* UpdateViewController.swift */; };
 		7DC532FC2A49DABF0012A922 /* AcoountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC532FB2A49DABF0012A922 /* AcoountViewController.swift */; };
 		7DF41F2C2A44ED28004A5AB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF41F2B2A44ED28004A5AB1 /* AppDelegate.swift */; };
 		7DF41F2E2A44ED28004A5AB1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF41F2D2A44ED28004A5AB1 /* SceneDelegate.swift */; };
@@ -22,6 +23,7 @@
 
 /* Begin PBXFileReference section */
 		7D1037FC2A48E2BF00F89CD4 /* BeerType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerType.swift; sourceTree = "<group>"; };
+		7D778F632A4C64DD0058AF2F /* UpdateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateViewController.swift; sourceTree = "<group>"; };
 		7DC532FB2A49DABF0012A922 /* AcoountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcoountViewController.swift; sourceTree = "<group>"; };
 		7DF41F282A44ED28004A5AB1 /* Bar beerMood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bar beerMood.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DF41F2B2A44ED28004A5AB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -73,6 +75,7 @@
 				7DF41F432A46FD7A004A5AB1 /* BasketViewController.swift */,
 				7DF41F452A46FDE2004A5AB1 /* SettingsViewController.swift */,
 				7D1037FC2A48E2BF00F89CD4 /* BeerType.swift */,
+				7D778F632A4C64DD0058AF2F /* UpdateViewController.swift */,
 				7DC532FB2A49DABF0012A922 /* AcoountViewController.swift */,
 				7DF41F312A44ED28004A5AB1 /* Main.storyboard */,
 				7DF41F342A44ED29004A5AB1 /* Assets.xcassets */,
@@ -155,6 +158,7 @@
 			files = (
 				7DF41F442A46FD7B004A5AB1 /* BasketViewController.swift in Sources */,
 				7DF41F422A46EC6B004A5AB1 /* AboutBeerViewController.swift in Sources */,
+				7D778F642A4C64DD0058AF2F /* UpdateViewController.swift in Sources */,
 				7DF41F302A44ED28004A5AB1 /* ViewController.swift in Sources */,
 				7DF41F2C2A44ED28004A5AB1 /* AppDelegate.swift in Sources */,
 				7DF41F2E2A44ED28004A5AB1 /* SceneDelegate.swift in Sources */,
