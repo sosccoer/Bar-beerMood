@@ -1152,7 +1152,7 @@
                                 <rect key="frame" x="0.0" y="770" width="414" height="100"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hpU-Rk-vCQ">
-                                        <rect key="frame" x="16" y="16" width="233" height="41"/>
+                                        <rect key="frame" x="16" y="43" width="233" height="41"/>
                                         <string key="text">Код приложения находится в
 открытом доступе</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -1160,7 +1160,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uu0-eZ-74Q">
-                                        <rect key="frame" x="374" y="16" width="24" height="14"/>
+                                        <rect key="frame" x="374" y="70" width="24" height="14"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain"/>
                                         <connections>
@@ -1172,8 +1172,8 @@
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="Uu0-eZ-74Q" secondAttribute="trailing" constant="16" id="8fQ-hn-LzD"/>
                                     <constraint firstItem="hpU-Rk-vCQ" firstAttribute="leading" secondItem="tf9-pb-at4" secondAttribute="leading" constant="16" id="9IJ-Uh-5oX"/>
-                                    <constraint firstItem="Uu0-eZ-74Q" firstAttribute="top" secondItem="tf9-pb-at4" secondAttribute="top" constant="16" id="U1z-6p-kgB"/>
-                                    <constraint firstItem="hpU-Rk-vCQ" firstAttribute="top" secondItem="tf9-pb-at4" secondAttribute="top" constant="16" id="kYC-Ob-S9u"/>
+                                    <constraint firstAttribute="bottom" secondItem="Uu0-eZ-74Q" secondAttribute="bottom" constant="16" id="c0S-0T-ygf"/>
+                                    <constraint firstAttribute="bottom" secondItem="hpU-Rk-vCQ" secondAttribute="bottom" constant="16" id="pHC-JS-2Ml"/>
                                     <constraint firstAttribute="height" constant="100" id="sRO-87-6sB"/>
                                 </constraints>
                             </view>
