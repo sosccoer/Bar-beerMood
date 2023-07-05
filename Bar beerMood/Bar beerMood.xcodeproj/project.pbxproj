@@ -8,11 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		7D1037FD2A48E2BF00F89CD4 /* BeerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1037FC2A48E2BF00F89CD4 /* BeerType.swift */; };
+		7D3020992A54B25E00D9A903 /* BarManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3020982A54B25E00D9A903 /* BarManager.swift */; };
+		7D30209C2A55A3D300D9A903 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D30209B2A55A3D300D9A903 /* ViewController.swift */; };
 		7D778F642A4C64DD0058AF2F /* UpdateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D778F632A4C64DD0058AF2F /* UpdateViewController.swift */; };
 		7DC532FC2A49DABF0012A922 /* AcoountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC532FB2A49DABF0012A922 /* AcoountViewController.swift */; };
 		7DF41F2C2A44ED28004A5AB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF41F2B2A44ED28004A5AB1 /* AppDelegate.swift */; };
 		7DF41F2E2A44ED28004A5AB1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF41F2D2A44ED28004A5AB1 /* SceneDelegate.swift */; };
-		7DF41F302A44ED28004A5AB1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF41F2F2A44ED28004A5AB1 /* ViewController.swift */; };
 		7DF41F332A44ED28004A5AB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DF41F312A44ED28004A5AB1 /* Main.storyboard */; };
 		7DF41F352A44ED29004A5AB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DF41F342A44ED29004A5AB1 /* Assets.xcassets */; };
 		7DF41F382A44ED29004A5AB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DF41F362A44ED29004A5AB1 /* LaunchScreen.storyboard */; };
@@ -23,12 +24,13 @@
 
 /* Begin PBXFileReference section */
 		7D1037FC2A48E2BF00F89CD4 /* BeerType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerType.swift; sourceTree = "<group>"; };
+		7D3020982A54B25E00D9A903 /* BarManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarManager.swift; sourceTree = "<group>"; };
+		7D30209B2A55A3D300D9A903 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7D778F632A4C64DD0058AF2F /* UpdateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateViewController.swift; sourceTree = "<group>"; };
 		7DC532FB2A49DABF0012A922 /* AcoountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcoountViewController.swift; sourceTree = "<group>"; };
 		7DF41F282A44ED28004A5AB1 /* Bar beerMood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bar beerMood.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DF41F2B2A44ED28004A5AB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7DF41F2D2A44ED28004A5AB1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7DF41F2F2A44ED28004A5AB1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7DF41F322A44ED28004A5AB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7DF41F342A44ED29004A5AB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7DF41F372A44ED29004A5AB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +51,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7D3020942A4F3A9B00D9A903 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7DF41F2B2A44ED28004A5AB1 /* AppDelegate.swift */,
+				7DF41F2D2A44ED28004A5AB1 /* SceneDelegate.swift */,
+				7DF41F312A44ED28004A5AB1 /* Main.storyboard */,
+				7DF41F342A44ED29004A5AB1 /* Assets.xcassets */,
+				7DF41F362A44ED29004A5AB1 /* LaunchScreen.storyboard */,
+				7DF41F392A44ED29004A5AB1 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		7D3020952A4F433000D9A903 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7D1037FC2A48E2BF00F89CD4 /* BeerType.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7D3020962A4F434000D9A903 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				7DF41F412A46EC6B004A5AB1 /* AboutBeerViewController.swift */,
+				7D30209B2A55A3D300D9A903 /* ViewController.swift */,
+				7DF41F432A46FD7A004A5AB1 /* BasketViewController.swift */,
+				7DF41F452A46FDE2004A5AB1 /* SettingsViewController.swift */,
+				7D778F632A4C64DD0058AF2F /* UpdateViewController.swift */,
+				7DC532FB2A49DABF0012A922 /* AcoountViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		7D30209A2A54B27700D9A903 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				7D3020982A54B25E00D9A903 /* BarManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		7DF41F1F2A44ED28004A5AB1 = {
 			isa = PBXGroup;
 			children = (
@@ -68,19 +112,10 @@
 		7DF41F2A2A44ED28004A5AB1 /* Bar beerMood */ = {
 			isa = PBXGroup;
 			children = (
-				7DF41F2B2A44ED28004A5AB1 /* AppDelegate.swift */,
-				7DF41F2D2A44ED28004A5AB1 /* SceneDelegate.swift */,
-				7DF41F2F2A44ED28004A5AB1 /* ViewController.swift */,
-				7DF41F412A46EC6B004A5AB1 /* AboutBeerViewController.swift */,
-				7DF41F432A46FD7A004A5AB1 /* BasketViewController.swift */,
-				7DF41F452A46FDE2004A5AB1 /* SettingsViewController.swift */,
-				7D1037FC2A48E2BF00F89CD4 /* BeerType.swift */,
-				7D778F632A4C64DD0058AF2F /* UpdateViewController.swift */,
-				7DC532FB2A49DABF0012A922 /* AcoountViewController.swift */,
-				7DF41F312A44ED28004A5AB1 /* Main.storyboard */,
-				7DF41F342A44ED29004A5AB1 /* Assets.xcassets */,
-				7DF41F362A44ED29004A5AB1 /* LaunchScreen.storyboard */,
-				7DF41F392A44ED29004A5AB1 /* Info.plist */,
+				7D30209A2A54B27700D9A903 /* Services */,
+				7D3020962A4F434000D9A903 /* ViewControllers */,
+				7D3020952A4F433000D9A903 /* Models */,
+				7D3020942A4F3A9B00D9A903 /* Resources */,
 			);
 			path = "Bar beerMood";
 			sourceTree = "<group>";
@@ -156,10 +191,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D30209C2A55A3D300D9A903 /* ViewController.swift in Sources */,
 				7DF41F442A46FD7B004A5AB1 /* BasketViewController.swift in Sources */,
+				7D3020992A54B25E00D9A903 /* BarManager.swift in Sources */,
 				7DF41F422A46EC6B004A5AB1 /* AboutBeerViewController.swift in Sources */,
 				7D778F642A4C64DD0058AF2F /* UpdateViewController.swift in Sources */,
-				7DF41F302A44ED28004A5AB1 /* ViewController.swift in Sources */,
 				7DF41F2C2A44ED28004A5AB1 /* AppDelegate.swift in Sources */,
 				7DF41F2E2A44ED28004A5AB1 /* SceneDelegate.swift in Sources */,
 				7D1037FD2A48E2BF00F89CD4 /* BeerType.swift in Sources */,
@@ -313,7 +349,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = U35946W2F2;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Bar beerMood/Info.plist";
+				INFOPLIST_FILE = "Bar beerMood/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -341,7 +377,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = U35946W2F2;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Bar beerMood/Info.plist";
+				INFOPLIST_FILE = "Bar beerMood/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;

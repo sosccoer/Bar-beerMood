@@ -66,7 +66,7 @@
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain"/>
                                                         <connections>
-                                                            <segue destination="Oxx-vw-dJf" kind="show" id="ASO-cm-UXL"/>
+                                                            <action selector="goToDetailsWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BrM-zl-ilP"/>
                                                         </connections>
                                                     </button>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Название пыва" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Eti-bu-E8r">
@@ -108,7 +108,7 @@
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain"/>
                                                         <connections>
-                                                            <segue destination="Oxx-vw-dJf" kind="show" id="F26-gi-X1F"/>
+                                                            <action selector="goToDetailsWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VNF-Or-46G"/>
                                                         </connections>
                                                     </button>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Название пыва" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4iW-y2-Zkw">
@@ -150,7 +150,7 @@
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain"/>
                                                         <connections>
-                                                            <segue destination="Oxx-vw-dJf" kind="show" id="gQQ-IN-BfC"/>
+                                                            <action selector="goToDetailsWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WV2-K5-vKK"/>
                                                         </connections>
                                                     </button>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Название пыва" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pT3-mR-9Zg">
@@ -192,7 +192,7 @@
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain"/>
                                                         <connections>
-                                                            <segue destination="Oxx-vw-dJf" kind="show" id="C1U-9o-El2"/>
+                                                            <action selector="goToDetailsWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JY4-8w-H95"/>
                                                         </connections>
                                                     </button>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Название пыва" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7SB-NX-63g">
@@ -234,7 +234,7 @@
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain"/>
                                                         <connections>
-                                                            <segue destination="Oxx-vw-dJf" kind="show" id="vbx-Rh-B3j"/>
+                                                            <action selector="goToDetailsWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="E3j-pO-322"/>
                                                         </connections>
                                                     </button>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Название пыва" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nch-98-v4u">
@@ -276,7 +276,7 @@
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain"/>
                                                         <connections>
-                                                            <segue destination="Oxx-vw-dJf" kind="show" id="aVY-Ya-vfW"/>
+                                                            <action selector="goToDetailsWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lXy-m5-T0L"/>
                                                         </connections>
                                                     </button>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Название пыва" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sO8-bL-rOi">
@@ -318,7 +318,7 @@
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain"/>
                                                         <connections>
-                                                            <segue destination="Oxx-vw-dJf" kind="show" id="HtA-Xb-fu1"/>
+                                                            <action selector="goToDetailsWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GwY-xa-b2w"/>
                                                         </connections>
                                                     </button>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Название пыва" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lP4-o9-lRm">
@@ -360,7 +360,7 @@
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain"/>
                                                         <connections>
-                                                            <segue destination="Oxx-vw-dJf" kind="show" id="EUs-7C-KZc"/>
+                                                            <action selector="goToDetailsWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6o6-hL-0eK"/>
                                                         </connections>
                                                     </button>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Название пыва" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LJe-cK-cAj">
@@ -402,7 +402,7 @@
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain"/>
                                                         <connections>
-                                                            <segue destination="Oxx-vw-dJf" kind="show" id="bQd-pd-QAj"/>
+                                                            <action selector="goToDetailsWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IQ1-FK-Iuv"/>
                                                         </connections>
                                                     </button>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Название пыва" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VxB-0G-Mcs">
@@ -444,7 +444,7 @@
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain"/>
                                                         <connections>
-                                                            <segue destination="Oxx-vw-dJf" kind="show" id="GxQ-bm-QG7"/>
+                                                            <action selector="goToDetailsWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="O9v-14-IGc"/>
                                                         </connections>
                                                     </button>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Название пыва" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Xk-tx-4eb">
@@ -486,7 +486,7 @@
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain"/>
                                                         <connections>
-                                                            <segue destination="Oxx-vw-dJf" kind="show" id="He8-qu-Cpy"/>
+                                                            <action selector="goToDetailsWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eAi-Ae-Wme"/>
                                                         </connections>
                                                     </button>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Название пыва" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vlu-Wl-2gD">
@@ -528,7 +528,7 @@
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain"/>
                                                         <connections>
-                                                            <segue destination="Oxx-vw-dJf" kind="show" id="ZIN-df-caH"/>
+                                                            <action selector="goToDetailsWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wkZ-mJ-Hf7"/>
                                                         </connections>
                                                     </button>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Название пыва" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w7C-h9-4gd">
@@ -570,7 +570,7 @@
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain"/>
                                                         <connections>
-                                                            <segue destination="Oxx-vw-dJf" kind="show" id="qf7-1c-DpJ"/>
+                                                            <action selector="goToDetailsWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oBa-A6-kuZ"/>
                                                         </connections>
                                                     </button>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Название пыва" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="msB-0E-LFm">
@@ -612,7 +612,7 @@
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain"/>
                                                         <connections>
-                                                            <segue destination="Oxx-vw-dJf" kind="show" id="EU8-LU-a8V"/>
+                                                            <action selector="goToDetailsWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="o4C-dA-Hqf"/>
                                                         </connections>
                                                     </button>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Название пыва" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zZJ-gx-fB2">
@@ -654,7 +654,7 @@
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain"/>
                                                         <connections>
-                                                            <segue destination="Oxx-vw-dJf" kind="show" id="1zN-kX-9PU"/>
+                                                            <action selector="goToDetailsWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="po6-18-GGL"/>
                                                         </connections>
                                                     </button>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Название пыва" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LFM-Ue-Pij">
@@ -713,36 +713,52 @@
                     <tabBarItem key="tabBarItem" title="Меню" image="menucard" catalog="system" selectedImage="menucard.fill" id="ttZ-dN-SKF"/>
                     <navigationItem key="navigationItem" title="Bar beerMood" id="Tp6-Mj-KTc"/>
                     <connections>
-                        <outletCollection property="NamesOfBeer" destination="Eti-bu-E8r" collectionClass="NSMutableArray" id="auy-Jz-aQG"/>
-                        <outletCollection property="NamesOfBeer" destination="4iW-y2-Zkw" collectionClass="NSMutableArray" id="2nM-Gp-WJX"/>
-                        <outletCollection property="NamesOfBeer" destination="pT3-mR-9Zg" collectionClass="NSMutableArray" id="pmh-j6-QgK"/>
-                        <outletCollection property="NamesOfBeer" destination="7SB-NX-63g" collectionClass="NSMutableArray" id="sNX-pz-Lj8"/>
-                        <outletCollection property="NamesOfBeer" destination="Nch-98-v4u" collectionClass="NSMutableArray" id="s8f-2h-Kkb"/>
-                        <outletCollection property="NamesOfBeer" destination="sO8-bL-rOi" collectionClass="NSMutableArray" id="xGa-w5-ool"/>
-                        <outletCollection property="NamesOfBeer" destination="lP4-o9-lRm" collectionClass="NSMutableArray" id="8Cv-9T-3fQ"/>
-                        <outletCollection property="NamesOfBeer" destination="LJe-cK-cAj" collectionClass="NSMutableArray" id="2tx-z0-s3k"/>
-                        <outletCollection property="NamesOfBeer" destination="VxB-0G-Mcs" collectionClass="NSMutableArray" id="X1k-FL-Fi8"/>
-                        <outletCollection property="NamesOfBeer" destination="9Xk-tx-4eb" collectionClass="NSMutableArray" id="YBM-Qz-ows"/>
-                        <outletCollection property="NamesOfBeer" destination="vlu-Wl-2gD" collectionClass="NSMutableArray" id="fXq-9X-w9x"/>
-                        <outletCollection property="NamesOfBeer" destination="w7C-h9-4gd" collectionClass="NSMutableArray" id="sXC-zo-7Hd"/>
-                        <outletCollection property="NamesOfBeer" destination="msB-0E-LFm" collectionClass="NSMutableArray" id="gao-Cg-hEv"/>
-                        <outletCollection property="NamesOfBeer" destination="zZJ-gx-fB2" collectionClass="NSMutableArray" id="lXT-yA-H2j"/>
-                        <outletCollection property="NamesOfBeer" destination="LFM-Ue-Pij" collectionClass="NSMutableArray" id="eRN-ci-u28"/>
-                        <outletCollection property="quantityOfBear" destination="S07-P2-44I" collectionClass="NSMutableArray" id="F38-jt-kvX"/>
-                        <outletCollection property="quantityOfBear" destination="0JB-Ut-jfR" collectionClass="NSMutableArray" id="P8v-tk-3Qb"/>
-                        <outletCollection property="quantityOfBear" destination="e4e-P8-jCl" collectionClass="NSMutableArray" id="6Vj-Ii-kOV"/>
-                        <outletCollection property="quantityOfBear" destination="kQg-Jx-zab" collectionClass="NSMutableArray" id="LZK-Rr-BCE"/>
-                        <outletCollection property="quantityOfBear" destination="zB4-v8-rw9" collectionClass="NSMutableArray" id="Oxh-o4-JuT"/>
-                        <outletCollection property="quantityOfBear" destination="cBB-c6-FxT" collectionClass="NSMutableArray" id="05K-ei-AAx"/>
-                        <outletCollection property="quantityOfBear" destination="Cou-WQ-uFR" collectionClass="NSMutableArray" id="ewa-Rz-s1j"/>
-                        <outletCollection property="quantityOfBear" destination="Ucv-vy-M0h" collectionClass="NSMutableArray" id="ZkD-Ly-7li"/>
-                        <outletCollection property="quantityOfBear" destination="05h-vZ-Oei" collectionClass="NSMutableArray" id="41n-Hk-UQS"/>
-                        <outletCollection property="quantityOfBear" destination="KKZ-vp-VAJ" collectionClass="NSMutableArray" id="sRF-Jg-OYh"/>
-                        <outletCollection property="quantityOfBear" destination="j7v-y9-RbT" collectionClass="NSMutableArray" id="L7k-gA-rvb"/>
-                        <outletCollection property="quantityOfBear" destination="fSc-PM-Uou" collectionClass="NSMutableArray" id="eJ3-pI-qg2"/>
-                        <outletCollection property="quantityOfBear" destination="TK8-P5-BH9" collectionClass="NSMutableArray" id="y67-6s-D3t"/>
-                        <outletCollection property="quantityOfBear" destination="cXk-CD-wbY" collectionClass="NSMutableArray" id="DbB-wf-005"/>
-                        <outletCollection property="quantityOfBear" destination="hlq-Eh-CuK" collectionClass="NSMutableArray" id="YHe-zM-BLc"/>
+                        <outletCollection property="beerButons" destination="N8i-va-hZy" collectionClass="NSMutableArray" id="cmL-Pu-EKW"/>
+                        <outletCollection property="beerButons" destination="9Dz-kb-TN9" collectionClass="NSMutableArray" id="2M8-xC-QLx"/>
+                        <outletCollection property="beerButons" destination="0zA-VH-rfb" collectionClass="NSMutableArray" id="A7t-FR-4fp"/>
+                        <outletCollection property="beerButons" destination="gUe-9H-Ga0" collectionClass="NSMutableArray" id="Tbs-fK-wfa"/>
+                        <outletCollection property="beerButons" destination="f27-xp-ESd" collectionClass="NSMutableArray" id="En2-46-dln"/>
+                        <outletCollection property="beerButons" destination="9m8-9X-5nC" collectionClass="NSMutableArray" id="bi8-vX-z2c"/>
+                        <outletCollection property="beerButons" destination="3S9-4C-4HR" collectionClass="NSMutableArray" id="Fz7-PU-0gD"/>
+                        <outletCollection property="beerButons" destination="toH-ZA-YCF" collectionClass="NSMutableArray" id="384-1w-eYU"/>
+                        <outletCollection property="beerButons" destination="tYO-Sf-yui" collectionClass="NSMutableArray" id="vf2-bk-rc3"/>
+                        <outletCollection property="beerButons" destination="GKF-Q9-7gu" collectionClass="NSMutableArray" id="w2x-Kf-iiT"/>
+                        <outletCollection property="beerButons" destination="qfj-zp-44V" collectionClass="NSMutableArray" id="Nic-pZ-fcE"/>
+                        <outletCollection property="beerButons" destination="Opa-Yg-53W" collectionClass="NSMutableArray" id="veQ-B1-8Ja"/>
+                        <outletCollection property="beerButons" destination="P7x-q3-6ao" collectionClass="NSMutableArray" id="age-YD-MBG"/>
+                        <outletCollection property="beerButons" destination="AaU-bb-IQI" collectionClass="NSMutableArray" id="iCN-dl-8K0"/>
+                        <outletCollection property="beerButons" destination="TvV-jY-7Oz" collectionClass="NSMutableArray" id="a16-jr-nB0"/>
+                        <outletCollection property="beerNames" destination="Eti-bu-E8r" collectionClass="NSMutableArray" id="xgs-DQ-vf1"/>
+                        <outletCollection property="beerNames" destination="4iW-y2-Zkw" collectionClass="NSMutableArray" id="ABa-GA-jCC"/>
+                        <outletCollection property="beerNames" destination="pT3-mR-9Zg" collectionClass="NSMutableArray" id="9co-l3-Wn1"/>
+                        <outletCollection property="beerNames" destination="7SB-NX-63g" collectionClass="NSMutableArray" id="QzF-sr-IJc"/>
+                        <outletCollection property="beerNames" destination="Nch-98-v4u" collectionClass="NSMutableArray" id="gm4-CP-7b8"/>
+                        <outletCollection property="beerNames" destination="sO8-bL-rOi" collectionClass="NSMutableArray" id="MtD-mm-k1b"/>
+                        <outletCollection property="beerNames" destination="lP4-o9-lRm" collectionClass="NSMutableArray" id="yuD-mn-SRC"/>
+                        <outletCollection property="beerNames" destination="LJe-cK-cAj" collectionClass="NSMutableArray" id="6MU-C5-dkF"/>
+                        <outletCollection property="beerNames" destination="VxB-0G-Mcs" collectionClass="NSMutableArray" id="eSL-S3-eBb"/>
+                        <outletCollection property="beerNames" destination="9Xk-tx-4eb" collectionClass="NSMutableArray" id="gvj-z1-oEX"/>
+                        <outletCollection property="beerNames" destination="vlu-Wl-2gD" collectionClass="NSMutableArray" id="sBn-jv-oWe"/>
+                        <outletCollection property="beerNames" destination="w7C-h9-4gd" collectionClass="NSMutableArray" id="1un-cd-NWS"/>
+                        <outletCollection property="beerNames" destination="msB-0E-LFm" collectionClass="NSMutableArray" id="guc-uX-vI1"/>
+                        <outletCollection property="beerNames" destination="zZJ-gx-fB2" collectionClass="NSMutableArray" id="CJf-62-uV3"/>
+                        <outletCollection property="beerNames" destination="LFM-Ue-Pij" collectionClass="NSMutableArray" id="AnS-Lk-mGr"/>
+                        <outletCollection property="beerVolumes" destination="S07-P2-44I" collectionClass="NSMutableArray" id="RWN-Cx-YGE"/>
+                        <outletCollection property="beerVolumes" destination="0JB-Ut-jfR" collectionClass="NSMutableArray" id="Utd-4I-pRJ"/>
+                        <outletCollection property="beerVolumes" destination="e4e-P8-jCl" collectionClass="NSMutableArray" id="Lv8-CF-dmB"/>
+                        <outletCollection property="beerVolumes" destination="kQg-Jx-zab" collectionClass="NSMutableArray" id="TXU-pr-5Pt"/>
+                        <outletCollection property="beerVolumes" destination="zB4-v8-rw9" collectionClass="NSMutableArray" id="215-Zp-97Q"/>
+                        <outletCollection property="beerVolumes" destination="cBB-c6-FxT" collectionClass="NSMutableArray" id="7hc-rR-ayB"/>
+                        <outletCollection property="beerVolumes" destination="Cou-WQ-uFR" collectionClass="NSMutableArray" id="GNG-uS-ezw"/>
+                        <outletCollection property="beerVolumes" destination="Ucv-vy-M0h" collectionClass="NSMutableArray" id="siN-2W-ZFl"/>
+                        <outletCollection property="beerVolumes" destination="05h-vZ-Oei" collectionClass="NSMutableArray" id="uxg-VE-RC0"/>
+                        <outletCollection property="beerVolumes" destination="KKZ-vp-VAJ" collectionClass="NSMutableArray" id="Za6-Kn-eIE"/>
+                        <outletCollection property="beerVolumes" destination="j7v-y9-RbT" collectionClass="NSMutableArray" id="txz-uY-vNe"/>
+                        <outletCollection property="beerVolumes" destination="fSc-PM-Uou" collectionClass="NSMutableArray" id="vUm-V4-dLu"/>
+                        <outletCollection property="beerVolumes" destination="TK8-P5-BH9" collectionClass="NSMutableArray" id="8Nn-FH-iCP"/>
+                        <outletCollection property="beerVolumes" destination="cXk-CD-wbY" collectionClass="NSMutableArray" id="hg0-wS-aR3"/>
+                        <outletCollection property="beerVolumes" destination="hlq-Eh-CuK" collectionClass="NSMutableArray" id="Dfh-Vh-aQk"/>
+                        <segue destination="Oxx-vw-dJf" kind="show" identifier="AboutBeer" id="bB8-EV-Hxx"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -752,7 +768,7 @@
         <!--About Beer View Controller-->
         <scene sceneID="3LM-bD-adg">
             <objects>
-                <viewController id="Oxx-vw-dJf" customClass="AboutBeerViewController" customModule="Bar_beerMood" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="AboutBeer" id="Oxx-vw-dJf" customClass="AboutBeerViewController" customModule="Bar_beerMood" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="h9j-Gm-8te">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -853,7 +869,7 @@
                                                     <constraint firstAttribute="height" constant="40" id="BOC-wu-PCY"/>
                                                 </constraints>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="tinted" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="tinted" title="Купить"/>
                                                 <connections>
                                                     <action selector="buyBeer:" destination="Oxx-vw-dJf" eventType="touchUpInside" id="Dhy-Si-NwR"/>
                                                 </connections>
@@ -945,9 +961,9 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OoS-le-igN">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="59"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Выручка за сегодня:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fX7-Do-QSy">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Выручка за сегодня:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fX7-Do-QSy">
                                                 <rect key="frame" x="16" y="16" width="236" height="35"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -955,6 +971,9 @@
                                                 <rect key="frame" x="268" y="16" width="130" height="35"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="tinted" title="Новая смена"/>
+                                                <connections>
+                                                    <action selector="newStuffAction:" destination="nda-2A-VEu" eventType="touchUpInside" id="kVh-Oo-0Yr"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -979,10 +998,13 @@
                                                 </constraints>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="tinted" title="Обнулить"/>
+                                                <connections>
+                                                    <action selector="beZero:" destination="nda-2A-VEu" eventType="touchUpInside" id="icQ-Mx-AMf"/>
+                                                </connections>
                                             </button>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Выручка всего:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d59-aU-Ra1">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Выручка всего:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d59-aU-Ra1">
                                                 <rect key="frame" x="16" y="8" width="236" height="35"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -1024,6 +1046,10 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Корзина" image="basket" catalog="system" selectedImage="basket.fill" id="eVg-xH-qdh"/>
                     <navigationItem key="navigationItem" id="FF3-u8-9KB"/>
+                    <connections>
+                        <outlet property="todaySallaryLabel" destination="fX7-Do-QSy" id="W2q-mz-Nqb"/>
+                        <outlet property="totalSallaryLabel" destination="d59-aU-Ra1" id="eoD-LS-ECV"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3ND-y3-PJ3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1307,9 +1333,6 @@
             <point key="canvasLocation" x="824.63768115942037" y="1200.6696428571429"/>
         </scene>
     </scenes>
-    <inferredMetricsTieBreakers>
-        <segue reference="ASO-cm-UXL"/>
-    </inferredMetricsTieBreakers>
     <resources>
         <image name="118833458" width="460" height="460"/>
         <image name="basket" catalog="system" width="128" height="108"/>
